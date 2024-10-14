@@ -24,7 +24,7 @@ spec:
   - name: output-image
     value: quay.io/redhat-user-workloads/mkosiarc-tenant/my-test-new:{{revision}}
   - name: dockerfile
-    value: https://raw.githubusercontent.com/mkosiarc-rhtap/my-test2/refs/heads/main/Dockerfile
+    value: https://github.com/mkosiarc-rhtap/my-test2/blob/main/Dockerfile
   pipelineSpec:
     description: |
       This pipeline is ideal for building container images from a Containerfile while reducing network traffic.
