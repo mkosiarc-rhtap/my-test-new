@@ -1,9 +1,6 @@
-#FROM registry.access.redhat.com/ubi8/ubi:latest as builder
+FROM registry.access.redhat.com/ubi8/ubi:latest
 
-#RUN dnf install -y git
-#COPY file.txt file.txt
+RUN dnf install -y git
 
 FROM scratch
-COPY file.txt file.txt
-
-
+COPY . .
