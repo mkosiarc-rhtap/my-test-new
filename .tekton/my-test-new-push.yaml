@@ -238,7 +238,7 @@ spec:
         - name: name
           value: buildah
         - name: bundle
-          value: quay.io/mkosiarc_rhtap/task-buildah@sha256:f88c93a60e229bae479081d7c692b9a1b019c7d57e1f9050156eb38adce4a736
+          value: quay.io/mkosiarc_rhtap/task-buildah@sha256:c55fed3d4d216522bf130cdd80617ccc993a4c08b501b7f3eb3618a90d9369e4
         - name: kind
           value: task
         resolver: bundles
